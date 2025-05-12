@@ -1,0 +1,49 @@
+/* Kontainer slider */
+.slider-container {
+  width: 100%;
+  height: 100%; /* Membuat slider fleksibel mengikuti tinggi layar */
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Slider menggunakan flex untuk membuat gambar tampil secara horizontal */
+#slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Setiap gambar di slider */
+.slide {
+  min-width: 100%;
+  height: 120%;
+  object-fit: contain; /* Menjaga gambar agar pas dan tidak terdistorsi */
+}
+
+/* Responsif untuk layar lebih besar dari 1600px */
+@media (max-width: 1600px) {
+  .slider-container {
+    height: auto; /* Gunakan 75% dari tinggi layar agar lebih pas */
+  }
+}
+
+/* Responsif untuk layar lebih besar dari 1200px */
+@media (max-width: 1200px) {
+  .slider-container {
+    height: auto; /* Menyesuaikan agar slider lebih kecil di layar sedang */
+  }
+}
+
+/* Responsif untuk layar dengan lebar 768px (tablet) */
+@media (max-width: 768px) {
+  .slider-container {
+    height: auto; /* Menyesuaikan tinggi slider di tablet */
+  }
+}
+
+/* Responsif untuk layar dengan lebar 480px (mobile kecil) */
+@media (max-width: 480px) {
+  .slider-container {
+    height: auto; /* Menyesuaikan tinggi slider di ponsel */
+  }
+}

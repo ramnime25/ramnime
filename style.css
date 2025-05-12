@@ -1,0 +1,44 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.anime-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+.anime-card:hover {
+  transform: scale(1.05);
+}
+.anime-card-title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-suggestion-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.search-suggestion-box::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+
+.search-suggestion-box::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+#searchSuggestions {
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+.search-suggestion:hover {
+  background-color: white;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Anime List Ramnime</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" alt="Logo" width="70" height="50" class="me-2">
+    </a>
+
+    <!-- Dropdown Menu -->
+    <ul class="navbar-nav me-3">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          Menu
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="index.html">Home</a></li>
+          <li><a class="dropdown-item" href="daftarisi.html">Daftar Isi</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Search Bar Tengah -->
+    <div class="mx-auto" style="width: 400px;">
+      <input type="text" class="form-control" id="searchInput" placeholder="Cari anime atau film...">
+    </div>
+
+  </div>
+</nav>
+  <div class="container mt-4" id="animeListContainer">
+    <div id="animeCardsContainer"></div>
+  </div>
+  <footer class="bg-black py-2">
+  <div class="container text-center">
+    <img src="logo-footer.png" alt="Logo" class="img-fluid mb-3" style="height: 90px;">
+    <p class="text-white mb-0" style="font-size: 13px;">© 2025 Ramnime. All Rights Reserved</p>
+  </div>
+</footer>
+  <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

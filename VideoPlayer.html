@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Watch Anime</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" alt="Logo" width="70" height="50" class="me-2">
+    </a>
+
+    <!-- Dropdown Menu -->
+    <ul class="navbar-nav me-3">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          Menu
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="index.html">Home</a></li>
+          <li><a class="dropdown-item" href="daftarisi.html">Daftar Isi</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <div class="container mt-4">
+    <h2 id="animeTitle"></h2>
+    <iframe id="animeVideo" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="d-flex justify-content-between mt-3">
+  <button id="prevBtn" class="btn btn-secondary">Previous Episode</button>
+  <button id="nextBtn" class="btn btn-secondary">Next Episode</button>
+</div>
+
+ <div class="container mt-4" id="animeInfoContainer"></div>
+
+<footer class="bg-black py-2">
+  <div class="container text-center">
+    <img src="logo-footer.png" alt="Logo" class="img-fluid mb-3" style="height: 90px;">
+    <p class="text-white mb-0" style="font-size: 13px;">© 2025 Ramnime. All Rights Reserved</p>
+  </div>
+</footer>
+  <script src="script.js"></script>
+<script>
+  fetch('AnimeData.json')
+    .then(response => response.json())
+    .then(data => showCurrentAnimeInfo(data));
+
+  function showCurrentAnimeInfo(data) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const animeId = urlParams.get("id");
+    const anime = data.find(a => a.id === animeId);
+
+    const container = document.getElementById("animeInfoContainer");
+
+    if (anime) {
+      container.innerHTML = `
+        <div class="card mb-4">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="${anime.image}" class="img-fluid rounded-start" alt="${anime.title}">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">${anime.title}</h5>
+                <p class="card-text">${anime.description}</p>
+                <p class="card-text"><small class="text-muted">Tanggal rilis: ${anime.date}</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+  }
+</script>
+</body>
+</html>

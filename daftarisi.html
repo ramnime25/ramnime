@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daftar Isi A-Z</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: white;
+    }
+    .letter-nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .letter-nav a {
+      margin: 5px;
+      font-size: 1.2rem;
+      display: inline-block;
+      color: #0dcaf0;
+      text-decoration: none;
+    }
+    .letter-nav a:hover {
+      text-decoration: underline;
+    }
+    .section-title {
+      margin-top: 40px;
+      border-bottom: 2px solid #0dcaf0;
+      padding-bottom: 5px;
+    }
+    .list-item a {
+      color: white;
+      text-decoration: none;
+    }
+    .list-item a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" alt="Logo" width="70" height="50" class="me-2">
+    </a>
+
+    <!-- Dropdown Menu -->
+    <ul class="navbar-nav me-3">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          Menu
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="index.html">Home</a></li>
+          <li><a class="dropdown-item" href="daftarisi.html">Daftar Isi</a></li>
+        </ul>
+      </li>
+    </ul>
+
+
+  </div>
+</nav>
+  <div class="container py-4">
+    <h1 class="text-center mb-4">Daftar Isi Anime & Film (A-Z)</h1>
+
+    <!-- Navigasi Huruf A-Z -->
+    <div class="letter-nav">
+      <script>
+        document.write(
+          Array.from(Array(26)).map((_, i) => {
+            const letter = String.fromCharCode(65 + i);
+            return `<a href="#${letter}">${letter}</a>`;
+          }).join('')
+        );
+      </script>
+    </div>
+
+    <!-- Tempat Daftar A-Z -->
+    <div id="daftarIsi"></div>
+  </div>
+
+  <script>
+    Promise.all([
+      fetch('AnimeData.json').then(res => res.json()),
+      fetch('FilmData.json').then(res => res.json())
+    ]).then(([animeData, filmData]) => {
+      const allData = [...animeData, ...filmData];
+      const grouped = {};
+
+      // Kelompokkan berdasarkan huruf awal
+      allData.forEach(item => {
+        const firstLetter = item.title.charAt(0).toUpperCase();
+        if (!grouped[firstLetter]) grouped[firstLetter] = [];
+        grouped[firstLetter].push(item);
+      });
+
+      const daftarIsi = document.getElementById('daftarIsi');
+      const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+      letters.forEach(letter => {
+        if (grouped[letter]) {
+          const section = document.createElement('div');
+          section.innerHTML = `
+            <h3 id="${letter}" class="section-title">${letter}</h3>
+            <ul class="list-unstyled">
+              ${grouped[letter].map(item => `
+                <li class="list-item mb-1">
+                  <a href="AnimeList.html?id=${item.id}">${item.title}</a>
+                </li>
+              `).join('')}
+            </ul>
+          `;
+          daftarIsi.appendChild(section);
+        }
+      });
+    });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer class="bg-black py-2">
+  <div class="container text-center">
+    <img src="logo-footer.png" alt="Logo" class="img-fluid mb-3" style="height: 90px;">
+    <p class="text-white mb-0" style="font-size: 13px;">© 2025 Ramnime. All Rights Reserved</p>
+  </div>
+</footer>
+</html>
