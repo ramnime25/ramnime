@@ -59,7 +59,7 @@
       return;
     }
 
-    // Tampilkan info anime seperti biasa
+    // Tampilkan info anime
     document.getElementById("animeInfoContainer").innerHTML = `
       <div class="card mb-4">
         <div class="row g-0">
@@ -77,22 +77,48 @@
       </div>
     `;
 
-    // Cari episode terakhir dari season terakhir
+    // Season dan episode
     const seasons = anime.episodes;
     const seasonNames = Object.keys(seasons);
     const lastSeasonName = seasonNames[seasonNames.length - 1];
     const lastSeasonEpisodes = seasons[lastSeasonName];
-    const lastEpisode = lastSeasonEpisodes[lastSeasonEpisodes.length - 1];
+    let currentEpisodeIndex = lastSeasonEpisodes.length - 1;
 
-    // Set iframe src ke episode terakhir
-    document.getElementById('animeVideo').src = lastEpisode.url;
+    const video = document.getElementById('animeVideo');
+    const title = document.getElementById('animeTitle');
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
 
-    // (opsional) update judul video di atas iframe
-    document.getElementById('animeTitle').textContent = `${anime.title} - ${lastSeasonName} - ${lastEpisode.title}`;
+    function updateEpisode() {
+      const episode = lastSeasonEpisodes[currentEpisodeIndex];
+      video.src = episode.url;
+      title.textContent = `${anime.title} - ${lastSeasonName} - ${episode.title}`;
 
-    // Jika ada fungsi tombol next/prev, bisa dipertahankan tanpa berubah
+      // Disable tombol jika di batas
+      prevBtn.disabled = currentEpisodeIndex === 0;
+      nextBtn.disabled = currentEpisodeIndex === lastSeasonEpisodes.length - 1;
+    }
 
-  });
+    // Tombol next
+    nextBtn.addEventListener('click', () => {
+      if (currentEpisodeIndex < lastSeasonEpisodes.length - 1) {
+        currentEpisodeIndex++;
+        updateEpisode();
+      }
+    });
+
+    // Tombol previous
+    prevBtn.addEventListener('click', () => {
+      if (currentEpisodeIndex > 0) {
+        currentEpisodeIndex--;
+        updateEpisode();
+      }
+    });
+
+    // Load pertama kali
+    updateEpisode();
+  })
+  .catch(error => console.error('Error:', error));
 </script>
 </body>
 </html>
