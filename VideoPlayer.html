@@ -48,35 +48,51 @@
   <script src="script.js"></script>
 <script>
   fetch('AnimeData.json')
-    .then(response => response.json())
-    .then(data => showCurrentAnimeInfo(data));
-
-  function showCurrentAnimeInfo(data) {
+  .then(response => response.json())
+  .then(data => {
     const urlParams = new URLSearchParams(window.location.search);
     const animeId = urlParams.get("id");
     const anime = data.find(a => a.id === animeId);
 
-    const container = document.getElementById("animeInfoContainer");
+    if (!anime) {
+      document.getElementById("animeInfoContainer").innerHTML = "<p>Anime tidak ditemukan.</p>";
+      return;
+    }
 
-    if (anime) {
-      container.innerHTML = `
-        <div class="card mb-4">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="${anime.image}" class="img-fluid rounded-start" alt="${anime.title}">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">${anime.title}</h5>
-                <p class="card-text">${anime.description}</p>
-                <p class="card-text"><small class="text-muted">Tanggal rilis: ${anime.date}</small></p>
-              </div>
+    // Tampilkan info anime seperti biasa
+    document.getElementById("animeInfoContainer").innerHTML = `
+      <div class="card mb-4">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="${anime.image}" class="img-fluid rounded-start" alt="${anime.title}">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">${anime.title}</h5>
+              <p class="card-text">${anime.description}</p>
+              <p class="card-text"><small class="text-muted">Tanggal rilis: ${anime.date}</small></p>
             </div>
           </div>
         </div>
-      `;
-    }
-  }
+      </div>
+    `;
+
+    // Cari episode terakhir dari season terakhir
+    const seasons = anime.episodes;
+    const seasonNames = Object.keys(seasons);
+    const lastSeasonName = seasonNames[seasonNames.length - 1];
+    const lastSeasonEpisodes = seasons[lastSeasonName];
+    const lastEpisode = lastSeasonEpisodes[lastSeasonEpisodes.length - 1];
+
+    // Set iframe src ke episode terakhir
+    document.getElementById('animeVideo').src = lastEpisode.url;
+
+    // (opsional) update judul video di atas iframe
+    document.getElementById('animeTitle').textContent = `${anime.title} - ${lastSeasonName} - ${lastEpisode.title}`;
+
+    // Jika ada fungsi tombol next/prev, bisa dipertahankan tanpa berubah
+
+  });
 </script>
 </body>
 </html>
