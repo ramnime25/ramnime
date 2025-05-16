@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <title>Watch Anime</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
   <div class="container-fluid">
-
     <!-- Logo -->
     <a class="navbar-brand" href="index.html">
       <img src="logo.png" alt="Logo" width="70" height="50" class="me-2">
@@ -17,7 +16,7 @@
     <!-- Dropdown Menu -->
     <ul class="navbar-nav me-3">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Menu
         </a>
         <ul class="dropdown-menu">
@@ -28,16 +27,18 @@
     </ul>
   </div>
 </nav>
-  <div class="container mt-4">
-    <h2 id="animeTitle"></h2>
-    <iframe id="animeVideo" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <div class="d-flex justify-content-between mt-3">
+
+<div class="container mt-4">
+  <h2 id="animeTitle"></h2>
+  <iframe id="animeVideo" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="d-flex justify-content-between mt-3">
   <button id="prevBtn" class="btn btn-secondary">Previous Episode</button>
   <button id="nextBtn" class="btn btn-secondary">Next Episode</button>
 </div>
 
- <div class="container mt-4" id="animeInfoContainer"></div>
+<div class="container mt-4" id="animeInfoContainer"></div>
 
 <footer class="bg-black py-2">
   <div class="container text-center">
@@ -45,9 +46,12 @@
     <p class="text-white mb-0" style="font-size: 13px;">© 2025 Ramnime. All Rights Reserved</p>
   </div>
 </footer>
-  <script src="script.js"></script>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 <script>
-  fetch('AnimeData.json')
+fetch('AnimeData.json')
   .then(response => response.json())
   .then(data => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -77,11 +81,12 @@
       </div>
     `;
 
-    // Season dan episode
+    // Ambil season terakhir dan episode terakhir
     const seasons = anime.episodes;
     const seasonNames = Object.keys(seasons);
     const lastSeasonName = seasonNames[seasonNames.length - 1];
     const lastSeasonEpisodes = seasons[lastSeasonName];
+
     let currentEpisodeIndex = lastSeasonEpisodes.length - 1;
 
     const video = document.getElementById('animeVideo');
@@ -94,12 +99,10 @@
       video.src = episode.url;
       title.textContent = `${anime.title} - ${lastSeasonName} - ${episode.title}`;
 
-      // Disable tombol jika di batas
       prevBtn.disabled = currentEpisodeIndex === 0;
       nextBtn.disabled = currentEpisodeIndex === lastSeasonEpisodes.length - 1;
     }
 
-    // Tombol next
     nextBtn.addEventListener('click', () => {
       if (currentEpisodeIndex < lastSeasonEpisodes.length - 1) {
         currentEpisodeIndex++;
@@ -107,7 +110,6 @@
       }
     });
 
-    // Tombol previous
     prevBtn.addEventListener('click', () => {
       if (currentEpisodeIndex > 0) {
         currentEpisodeIndex--;
