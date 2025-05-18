@@ -4,12 +4,10 @@ let filmData = [];
 let currentPage = 1;
 const itemsPerPage = 10;
 
-// Set background
 document.body.style.background = "url('background.jpg') no-repeat center center fixed";
 document.body.style.backgroundSize = "cover";
 document.body.style.backgroundAttachment = "fixed";
 
-// Ambil data dari 2 JSON
 Promise.all([
   fetch('AnimeData.json').then(res => res.json()),
   fetch('FilmData.json').then(res => res.json())
@@ -31,8 +29,8 @@ Promise.all([
     const suggestionBox = document.createElement("div");
     suggestionBox.className = "position-absolute bg-white border rounded mt-1 shadow w-150";
     suggestionBox.style.zIndex = "9999";
-    suggestionBox.style.maxHeight = "300px"; // Menambahkan batas tinggi
-    suggestionBox.style.overflowY = "auto"; // Menambahkan scroll jika melebihi 5 item
+    suggestionBox.style.maxHeight = "300px";
+    suggestionBox.style.overflowY = "auto";
     searchInput.parentNode.appendChild(suggestionBox);
 
     let selectedIndex = -1;
@@ -44,10 +42,7 @@ Promise.all([
 
       if (!keyword) return;
 
-      const filtered = allData
-        .filter(item => item.title.toLowerCase().includes(keyword))
-        .slice(0, 10);
-
+      const filtered = allData.filter(item => item.title.toLowerCase().includes(keyword)).slice(0, 10);
       if (filtered.length === 1) selectedIndex = 0;
 
       filtered.forEach((item, index) => {
@@ -76,10 +71,8 @@ Promise.all([
 
         info.appendChild(title);
         info.appendChild(label);
-
         option.appendChild(img);
         option.appendChild(info);
-
         option.onclick = () => {
           window.location.href = `AnimeList.html?id=${item.id}`;
         };
@@ -92,17 +85,12 @@ Promise.all([
       const options = suggestionBox.querySelectorAll(".search-suggestion");
       if (options.length === 0) return;
 
-      if (e.key === "ArrowDown") {
-        selectedIndex = (selectedIndex + 1) % options.length;
-      } else if (e.key === "ArrowUp") {
-        selectedIndex = (selectedIndex - 1 + options.length) % options.length;
-      } else if (e.key === "Enter") {
+      if (e.key === "ArrowDown") selectedIndex = (selectedIndex + 1) % options.length;
+      else if (e.key === "ArrowUp") selectedIndex = (selectedIndex - 1 + options.length) % options.length;
+      else if (e.key === "Enter") {
         e.preventDefault();
-        if (selectedIndex === -1 && options.length === 1) {
-          options[0].click();
-        } else if (selectedIndex >= 0 && selectedIndex < options.length) {
-          options[selectedIndex].click();
-        }
+        if (selectedIndex === -1 && options.length === 1) options[0].click();
+        else if (selectedIndex >= 0 && selectedIndex < options.length) options[selectedIndex].click();
       }
 
       options.forEach((opt, i) => {
@@ -141,7 +129,6 @@ Promise.all([
 
         prevBtn.style.display = "inline-block";
         nextBtn.style.display = "inline-block";
-
         prevBtn.disabled = episode <= 0;
         nextBtn.disabled = episode >= epList.length - 1;
 
@@ -163,11 +150,12 @@ Promise.all([
   if (window.location.pathname.includes("AnimeList.html")) {
     renderAnimeList(allData);
   }
+  if (document.getElementById("latestUpdatesContainer")) {
+  renderLatestUpdates();
+}
 });
 
-// Pagination Cards
 function renderPaginatedAnimeCards(container, data, page) {
-  // Urutin: Ongoing dulu baru Complete
   data.sort((a, b) => {
     if (a.status === "Ongoing" && b.status !== "Ongoing") return -1;
     if (a.status !== "Ongoing" && b.status === "Ongoing") return 1;
@@ -256,14 +244,11 @@ function createPaginationContainer() {
   const paginationDiv = document.createElement("div");
   paginationDiv.id = "paginationControls";
   paginationDiv.className = "d-flex justify-content-center align-items-center mt-3";
-  
-  // Tambahkan background di sini
   paginationDiv.style.backgroundColor = "rgba(255, 255, 255, 0.85)";
   paginationDiv.style.borderRadius = "10px";
   paginationDiv.style.padding = "10px 20px";
   paginationDiv.style.marginTop = "20px";
   paginationDiv.style.boxShadow = "0 2px 6px rgba(0,0,0,0.1)";
-  
   container.parentNode.insertBefore(paginationDiv, container.nextSibling);
   return paginationDiv;
 }
@@ -272,14 +257,11 @@ function changePage(newPage) {
   currentPage = newPage;
   const container = document.getElementById("animeCardsContainer");
   const keyword = document.getElementById("searchInput")?.value?.toLowerCase();
-  const filtered = keyword
-    ? animeData.filter(a => a.title.toLowerCase().includes(keyword))
-    : animeData;
+  const filtered = keyword ? animeData.filter(a => a.title.toLowerCase().includes(keyword)) : animeData;
   renderPaginatedAnimeCards(container, filtered, currentPage);
   renderPaginationControls(filtered.length);
 }
 
-// Render Detail List + Episode
 function renderAnimeList(data) {
   const container = document.getElementById("animeListContainer");
   const urlParams = new URLSearchParams(window.location.search);
@@ -288,8 +270,6 @@ function renderAnimeList(data) {
 
   if (anime) {
     container.innerHTML = '';
-
-    // Bagian info anime
     const infoCard = document.createElement("div");
     infoCard.style.backgroundColor = "rgba(255,255,255,0.85)";
     infoCard.style.padding = "20px";
@@ -302,16 +282,12 @@ function renderAnimeList(data) {
     `;
     container.appendChild(infoCard);
 
-    // Bagian list season dan episode
     for (const season of anime.season) {
       const episodes = anime.episodes[season];
-
       if (episodes && episodes.length > 0) {
-        // Bungkus satu season
         const seasonWrapper = document.createElement("div");
         seasonWrapper.className = "mb-4";
 
-        // Judul season dengan jumlah episode
         const seasonTitle = document.createElement("h4");
         seasonTitle.innerHTML = `${season} <span class="badge bg-primary">${episodes.length} eps</span>`;
         seasonTitle.style.backgroundColor = "rgba(255,255,255,0.85)";
@@ -319,7 +295,6 @@ function renderAnimeList(data) {
         seasonTitle.style.borderRadius = "8px";
         seasonTitle.style.marginTop = "20px";
 
-        // Container daftar episode
         const episodeContainer = document.createElement("div");
         episodeContainer.className = "d-flex flex-wrap gap-2 p-3";
         episodeContainer.style.backgroundColor = "rgba(255, 255, 255, 0.85)";
@@ -327,7 +302,6 @@ function renderAnimeList(data) {
         episodeContainer.style.maxHeight = "200px";
         episodeContainer.style.overflowY = "auto";
 
-        // Buat tombol tiap episode
         episodes.forEach((ep, i) => {
           const link = `VideoPlayer.html?id=${anime.id}&ep=${i}&season=${encodeURIComponent(season)}`;
           const btn = document.createElement("a");
@@ -337,7 +311,6 @@ function renderAnimeList(data) {
           episodeContainer.appendChild(btn);
         });
 
-        // Tambahkan semua ke container
         seasonWrapper.appendChild(seasonTitle);
         seasonWrapper.appendChild(episodeContainer);
         container.appendChild(seasonWrapper);
@@ -346,25 +319,65 @@ function renderAnimeList(data) {
   }
 }
 
-function renderFilmSection(films) {
-  const container = document.getElementById("animeCardsContainer");
-  const filmSection = document.createElement("div");
-  filmSection.className = "mt-4";
+function renderLatestUpdates(containerId = "latestUpdatesContainer") {
+  const container = document.getElementById(containerId);
+  if (!container) return;
 
-  filmSection.innerHTML = `
-    <div style="background-color: rgba(255,255,255,0.85); padding: 10px 15px; border-radius: 10px; display: inline-block; margin-bottom: 10px;">
-      <h4 class="mb-0">Film Anime Populer</h4>
-    </div>
+  container.innerHTML = '';
+
+  const ongoingAnime = animeData.filter(anime => anime.status?.toLowerCase() === "ongoing");
+
+  const cards = ongoingAnime.map(anime => {
+    const lastSeason = anime.season?.[anime.season.length - 1];
+    const episodes = anime.episodes?.[lastSeason];
+    const lastEpisodeIndex = episodes?.length - 1;
+    const lastEpisode = episodes?.[lastEpisodeIndex];
+
+    const epTitle = lastEpisode?.title || "Episode terbaru";
+    const epUrl = lastEpisode?.url || "#";
+
+return `
+  <div class="anime-card text-center" style="width: 130px; flex: 0 0 auto;">
+    <a href="VideoPlayer.html?id=${anime.id}&season=${encodeURIComponent(lastSeason)}&ep=${lastEpisodeIndex}" class="text-decoration-none">
+      <img src="${anime.image}" alt="${anime.title}" class="img-fluid rounded mb-1" style="height: 160px; object-fit: cover;">
+      <div style="background-color: rgba(255,255,255,0.9); padding: 6px; border-radius: 6px;">
+        <span class="badge bg-warning mb-1" style="font-size: 10px;">Update</span>
+        <div style="font-size: 12px;"><strong>${anime.title.length > 16 ? anime.title.slice(0, 14) + '…' : anime.title}</strong></div>
+        <small style="font-size: 10px;">${epTitle.length > 25 ? epTitle.slice(0, 23) + '…' : epTitle}</small>
+      </div>
+    </a>
+  </div>
+`;
+  }).join('');
+
+  container.innerHTML = `
+    <h3 class="mb-3" style="color: white;"></h3>
     <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-2">
-      ${films.map(item => `
-        <div class="anime-card text-center" style="flex: 0 0 auto; width: 150px;">
-          <a href="AnimeList.html?id=${item.id}" class="text-decoration-none">
-            <img src="${item.image}" alt="${item.title}" class="img-fluid rounded mb-2">
-            <div class="anime-card-title" style="background-color: rgba(255,255,255,0.8); padding: 5px; border-radius: 6px;">${item.title}</div>
-          </a>
-        </div>
-      `).join('')}
+      ${cards}
     </div>
   `;
-  container.parentNode.insertBefore(filmSection, container.nextSibling.nextSibling);
+}
+
+
+function renderFilmSection(films) {
+  const container = document.getElementById("filmSection");
+  if (!container) return;
+
+  films.sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by date
+
+  container.innerHTML = `
+  <h3 class="text-white mb-3" style="background-color: rgba(255,255,255,0.2); padding: 10px; border-radius: 8px; display: inline-block;"></h3>
+  <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-2">
+    ${films.map(film => `
+      <div class="anime-card text-center" style="flex: 0 0 auto; width: 150px;">
+        <a href="AnimeList.html?id=${film.id}" class="text-decoration-none">
+          <img src="${film.image}" alt="${film.title}" class="img-fluid rounded mb-2">
+          <div class="anime-card-title" style="background-color: rgba(255,255,255,0.8); padding: 5px; border-radius: 6px;">
+            <span class="badge bg-dark">Film</span> ${film.title}
+          </div>
+        </a>
+      </div>
+    `).join('')}
+  </div>
+`;
 }

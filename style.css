@@ -1,5 +1,9 @@
+/* Gaya Umum */
 body {
   background-color: #f8f9fa;
+  margin: 0;
+  padding: 10px;
+  font-family: sans-serif;
 }
 
 .anime-card {
@@ -12,6 +16,7 @@ body {
 .anime-card:hover {
   transform: scale(1.05);
 }
+
 .anime-card-title {
   font-size: 0.85rem;
   font-weight: 500;
@@ -21,6 +26,7 @@ body {
   text-overflow: ellipsis;
 }
 
+/* Scrollbar untuk kotak saran */
 .search-suggestion-box::-webkit-scrollbar {
   width: 6px;
 }
@@ -39,6 +45,73 @@ body {
   overflow-y: auto;
   z-index: 9999;
 }
+
 .search-suggestion:hover {
   background-color: white;
 }
+
+/* RESPONSIF UNTUK SEMUA PERANGKAT */
+
+/* Smartphone kecil (≤ 480px) */
+@media (max-width: 480px) {
+  .anime-card {
+    padding: 8px;
+  }
+
+  .anime-card-title {
+    font-size: 0.75rem;
+  }
+
+  body {
+    padding: 5px;
+  }
+}
+
+/* Smartphone & iPhone (≤ 768px) */
+@media (max-width: 768px) {
+  .anime-card {
+    padding: 10px;
+  }
+
+  .anime-card-title {
+    font-size: 0.8rem;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
+/* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .anime-card {
+    padding: 12px;
+  }
+
+  .anime-card-title {
+    font-size: 0.9rem;
+  }
+}
+
+/* Laptop & desktop kecil (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .anime-card {
+    padding: 14px;
+  }
+
+  .anime-card-title {
+    font-size: 1rem;
+  }
+}
+
+/* Layar besar (≥ 1367px) */
+@media (min-width: 1367px) {
+  .anime-card {
+    padding: 16px;
+  }
+
+  .anime-card-title {
+    font-size: 1.05rem;
+  }
+}
+
