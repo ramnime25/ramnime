@@ -5382,5 +5382,24 @@
       ]
     },
     "date": "2011"
+  },
+  {
+    "id": "42",
+    "title": "Vigilante: Boku no Hero Academia Illegals",
+    "status":"Ongoing",
+    "description": "My Hero Academia: Vigilantes merupakan cerita yang berfokus pada Koichi Haimawari, seorang pemuda dengan Quirk sederhana (Slide and Glide) yang memilih untuk menjadi vigilante, atau pahlawan tanpa lisensi, untuk melindungi masyarakat. Cerita ini memiliki nuansa lebih gelap dan menawarkan perspektif baru tentang dunia superhero dalam My Hero Academia, yang digambarkan sebelum cerita utama. ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7vz8PVKpFcuv8fe_rWqRAsz39hI1ot3rXXid8Mayieq4gYqhZtJ3nELk&s=10",
+    "season": ["Season 1"],
+    "episodes": {
+      "Season 1": [
+        { "title": "Episode 1", "url": "https://www.blogger.com/video.g?token=AD6v5dy8w08tMx74zX4-WjkiKA_ajX9e1OPRhjhj-TgXSpmj3_tE_XfyWuH_9QQOxu6s-MW0omDsCpEA2rQ2bHFLQTEoaZMOafE7lWcHWIR5nXEYzUukB9lwflQUj6LZEt_7yXMU8Hdj" },
+        { "title": "Episode 2", "url": "https://www.blogger.com/video.g?token=AD6v5dwIZXN_BNYVYAxBXdkcxXEFtXqmFAgh2Xn8TMZO144ZWSSkCEWyaOTBHk_ROTiEwFx4sb7ak6_gcX8Xcn3jmWYFF0y7HJ4yLixJJNbpivM3VQ4VLLBIpYKqBMjU5hIJvZX3aCU" },
+        { "title": "Episode 3", "url": "https://www.blogger.com/video.g?token=AD6v5dz-rdWH0qCqnLAzXlLLoUltUBQMdnSf32vQEs5V8XvHPoaSOrfs0GRDrD6BtQA6mkBfo6-N666Q52-o1NDpaOaq5o66sK4ZO82LTDwS0MflBQBqQZbyz5L64DCRCG0DM6Hz5oM" },
+        { "title": "Episode 4", "url": "https://www.blogger.com/video.g?token=AD6v5dyjAtoxt-_P2Et85S2Llec-yfHuFjM20tLAfmnzvmt20jl9JrRsJNzdCYCh_Q_Zm4tqo5fvl8DIvaq53z_KC7CG3phB3nRRTBoq2lMFfNk3yj2kPRJw2MPqHCenJeW1btaxmYs" },
+        { "title": "Episode 5", "url": "https://www.blogger.com/video.g?token=AD6v5dx9DKlY135V1UpYth7HugoTPBMqBBd_8Yqk1hoC0uZvTfLMqGY0ouZsOQcArVXxcLg5c420R7iV5kQwMX7Ms3Y0aYxTGcjRBMidheK4L3xC6xONs873oQqnpSOQQr6lNYgkbK4" },
+        { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dybOFvMrxR2HCu-eqS1bAg-EDjkAEaSBYew-obF7-SPxKPOIQ4OU9ARGc5Z66rDrHSPwxPa4v-fxxkERCgKbCvO037dAg-E0jV2CMRNjUldgqXZ5Nu0a6ODSSKuJmV0vSgLrtbH" }
+      ]
+    },
+    "date": "2025"
   }
 ]
