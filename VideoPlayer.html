@@ -27,6 +27,10 @@
         </ul>
       </li>
     </ul>
+        <!-- Search Bar Tengah -->
+    <div class="mx-auto" style="width: 400px;">
+      <input type="text" class="form-control" id="searchInput" placeholder="Cari anime atau film...">
+    </div>
   </div>
 </nav>
   <div class="container mt-4">
@@ -47,6 +51,7 @@
   </div>
 </footer>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
   fetch('AnimeData.json')
   .then(response => response.json())
