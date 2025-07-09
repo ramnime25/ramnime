@@ -223,10 +223,10 @@
    {
     "id": "4",
     "title": "Tatte No Yuusha no Nariagari",
-    "status":"Complete",
+    "status":"Ongoing",
     "description": "Naofumi merupakan otaku yang menghabiskan waktunya buat main game dan baca manga, tiba-tiba dirinya dipanggil ke dunia lain! Dan di sana ia menjadi salah satu dari empat pahlawan yang memegang senjata legendaris. Sebagai Pahlawan Perisai, Naofumi merupakan pahlawan terlemah. Penderitaannya tak sampai di situ, dia dikhianati dan ditipu oleh rekan serta kerajaan yang memanggilnya ke dunia itu. Sehingga ia hidup dikucilkan dan menjadi pahlawan terbuang. Setelah dihinakan seperti itu, Naofumi memutuskan untuk memperkuat dirinya dari nol dan membalas penghinaan yang dilakukan oleh dunia ini terhadapnya.",
     "image": "https://i3.wp.com/oploverz.my/wp-content/uploads/2023/10/1696607061-6755-136926.jpg?resize=247,350",
-    "season": ["Season 1","Season 2","Season 3"],
+    "season": ["Season 1","Season 2","Season 3","Season 4"],
     "episodes": {
       "Season 1": [
         { "title": "Episode 1", "url": "https://www.blogger.com/video.g?token=AD6v5dzZj5jWKxdSiiPkqd6mPKSGfPgsALm4sFgaT-9t-TuMoQTbPzBngDy7UTLKhn8Rs5nUhn84AmEY46ZJ9fz9evBv0i0nuhbhE6EKmJIXip69nRB-J2frOjvkNTASewa-lqt1K0c" },
@@ -282,8 +282,11 @@
         { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dzfivrot8_KLGqG9BRQK2LfrOhiLtNzKe3VWXlI6wJtMbTcguwqdF72j51BHcoziY2eAyxFnII91wtuQCYQHXxv4Sj_8Bo9E7aq1GhNI9ho1GKX2uWMPCn1KjxJVG3_3B-of-0" },
         { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dwW4ugOfNxkN6uegsK5_W7IAGZVFlICQnUT8i6gM9p8wnfVVGMgi7R2S8S142qcm7Hb45pJTdx6xHdDCoJ1QKc6saByqwkkSIxobQLAGWSt0Ng8YvedembPL2ahTK5N2EhxtSY" },
         { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dx3hUBGfMzzXd3jk_RHqvtlAq9H9_2kppNNC_RjiyGvKCoeY1xQwng8FSckb0lVKLLsnDiDDqEGMyxD8uapd0EkiYDyEotmprGeTv01_YroK62xDeA4iqAuD_ZoTGtTLbHT5TW_" },
-        { "title": "Episode 12 End", "url": "https://www.blogger.com/video.g?token=AD6v5dznltj-GFDPg-wE3Nxwol-rEEXM1aQkI6I4rBVgO10BPOQxR-zRHrxqBaz6xURSz-gpWXQmG9PIFZXtYJB99DdFpaow9NN7GT4yGfMz55oUqrq15X3D32S-CSNxI_9Xlj4sw6uV" }
-      ]
+        { "title": "Episode 12 End", "url": "https://www.blogger.com/video.g?token=AD6v5dznltj-GFDPg-wE3Nxwol-rEEXM1aQkI6I4rBVgO10BPOQxR-zRHrxqBaz6xURSz-gpWXQmG9PIFZXtYJB99DdFpaow9NN7GT4yGfMz55oUqrq15X3D32S-CSNxI_9Xlj4sw6uV" }     
+      ],
+       "Season 4": [
+         {"title": "Episode 1","url":"https://draft.blogger.com/video.g?token=AD6v5dzaLOSWFBUjr1hIh3jmcz4Jyn2wdsABHM_sOZFWjMlYJP4ejuiprXW_6Y6gSM5daIuhKcjm_-AYvNpwO2-d7Zv-TKuczC3h8BkdTDvl5g4UwJKLnbYIpIqE7lcvInr-J4ohKj8"}
+       ]
     },
     "date": "2019"
   },
@@ -1901,7 +1904,11 @@
         { "title": "Episode 5", "url": "https://www.blogger.com/video.g?token=AD6v5dyzsxa2atGy1XTyZiwlO1RApOwmTGYVFbArQaG06M41msM8-7FAGT1dQUdN4b7eXLQ2Bk5QE8rMZd-qtiqd3tW5W04Iw--F7dpv_SNz6ISkibjsf_OozKXYALq3O9oQXU5Ma7I" },
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dxC-O5HsQazgta0fTTGeK7GCvAhEaRB2zvky5QQSmbaxZFHcGSxpvfuul7ncR0DtDNHkyKHR6kQ7jhKiOKFaGKRWh8eRZ2tUjTwdkdYNudN7Sx9I5Eod7l_HeyHtAL-SZQaiso" },
         { "title": "Episode 7", "url": "https://www.blogger.com/video.g?token=AD6v5dzQZnpy4yJWQjx0DwXtBQ91T8P2un0-Q9bvYt6Kkap3sWdedZCige_6v7qXRFusH_TLdpICEQAiHbqrT0pOitjbjS8KVkOOkazqhGMNDWZo3mluYhp7MobIgbp1dh5ZfaiS8yc" },
-        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dyLcZT56UmTE9AMz2lkcWz5ZCXyS2ktYyFpKp0Bcvu08qFzB8QHZPWvkhqkmUnRCtQJYjWdoeUBmAW41y-Vg3DTqVS4kQobCvVIiZs8DI_WRjiAIE485nolkaS6RSIfh_lDQ9Jf"}
+        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dyLcZT56UmTE9AMz2lkcWz5ZCXyS2ktYyFpKp0Bcvu08qFzB8QHZPWvkhqkmUnRCtQJYjWdoeUBmAW41y-Vg3DTqVS4kQobCvVIiZs8DI_WRjiAIE485nolkaS6RSIfh_lDQ9Jf"},
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dx5exaAomH5KRvD443nKw72Zye4g7Tz6qxvxon-nRWg6roaCS3u1FRthXNipYRuinRInxJX9Yzol5SBxtLYKoa0-7C5Z4ipn-WB2PBkzaOi6WnftPgOc_gMuVuP4R_cFaabv-nE"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dz9VKYkUALuvuaBwX6DHA-TqWMOcSdFRxb6_9evDFuSRuUuVfdTNy4R-yNkgUbYn8L8_ma5mEFerwG42V298kOW3R2qSeZ1ZRtNlloG36A68tcvq0W6qMKGA7t9aAa-E4kOQlPU"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dxavRaAZh-7G5e9w0MrtCG1kpo6jAhVBGmRYtcuh-i6JrJOso4MkPbbYx53_P3xStX7OShNyVQwUXoK8dGQRqPV4huA718TQC0-tkbiUqHgEbIFU3dikk1EPRew3FbVEe5dQ9I"},
+        { "title": "Episode 12 End", "url": "https://www.blogger.com/video.g?token=AD6v5dxKVPS3jnIJrPyyNcycw_flQnfcoCT7WS2q990ELsSNaEtgCyR3Y1WlVWDxb-3tmX0qph3oGj1niNyvPVZz9ci27t5rMcr7jrzqc70WauISIiR6G5q_PH5KJhSRr8XMKrebRg"}
       ]
     },
     "date": "2024"
@@ -3803,7 +3810,10 @@
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dyo_SG6f5UAZ8Y7sn3y2xQmOq2duIbUOEoxKBShYPmO3l7Y6Uc8c-Mba_niymyxc-DpommWh4xuLDREUfiu-v6N4fP1w0QJnKoAGzgwTixZkfx6fskXyslXjCflvppFbpccPiOX" },
         { "title": "Episode 7", "url": "https://www.blogger.com/video.g?token=AD6v5dz7INylam2UL3Ot3R4hh9TlIL-srNcUQqWctxm6eymJOMmbsFvlZac4OQti2BolZa5dYopGdc4FOdBA7FuI3tcWdHaWp8Ou01kVee4NlWpHRR2V1RCgctF_eq4VMG_pK62biNOQ" },
         { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dwJvE2I1oRSK896LfudIyzI8gJHrSVWHGaANbROu7B8yHCRzZvtusHZPvJ8Vw-ZDBfWv_zhYvtJnHYWFQsm0OddpTQqy08jbd6KzA8O4oEDOd4SyEa72ZHTnorsgIfQsSmLLaw"},
-        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dzxA3ngxbcT2kGXsrMsKdbgLz0GGUNktMoVpfBJtmai2ezq1pwK6lk31lfgvox5oXiQ5ESq0diuAbx5lBMpyZ2HIjhqKJNW2cfdwBh_4gcHxp82U6TlN6naeQKFvrXF9iJzwMg"}
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dzxA3ngxbcT2kGXsrMsKdbgLz0GGUNktMoVpfBJtmai2ezq1pwK6lk31lfgvox5oXiQ5ESq0diuAbx5lBMpyZ2HIjhqKJNW2cfdwBh_4gcHxp82U6TlN6naeQKFvrXF9iJzwMg"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dwHjyGH5X_QzXcAQQBJdwgg2MUB55DdUifu92Nk5r65euP3MaeHwJODho461EbaTsTwvE91m4d9iMFvvYMNZ3WEZCx3808fM4MFMSY29IK6wQWf-r59eZAzv9fHX2_CXYy6M6A"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dyTwvVjwmNroi9nBiUwtPATBRF3NuXt1pemMk3Vus7gO2afLj6IrmMKZgBEU24o6pXBVzJHt2gzwD8PZxanqC_QQrl4MNTuB-SJnJhPSwl8sFNQX4zrlNqE_t2N1wBxjiaB05Rq"},
+        { "title": "Episode 12 End", "url": "https://www.blogger.com/video.g?token=AD6v5dysOrzXQYtu8-BCXSSRz6CoMyzWYax3JVFvBn4q9D8fgOH2-U2tqBibA2gA0w3sSOq8ppopCpv0l-lk_BQqjFXrO98TZuQ6K_wnDoh-rhsjvRj5cTHqHfFb7iTvU0q5km2aua_F"}
       ]
     },
     "date": "2024"
@@ -3825,7 +3835,10 @@
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dwfdgINIwRyVeEQbS3LenHBeH--4S6vEl_ZTzl30gLEvLltoI2m0GAzHjrY9Wt-bNjNuP6svy3syswRRG26G97W1rQkGdhECSnuhbAIUDLmOuuThZAph2YSDE5MzCRbD3HVmco" },
         { "title": "Episode 7", "url": "https://www.blogger.com/video.g?token=AD6v5dzAHBVj2VXO9NZ5HoEQ_nuy5CkOWCR2czLy8gCYXs3W-EZUE7u1CFQzZK9hos6iT_5nSInw112RcRHuZp2Tdms6cVcYydCCdTa9ERNFcYTUYGK3_IarCoM04F6n91EBg-aRHo0" },
         { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dw6ITgzg-xm_ObekLTYpv5KeWi9sLL93HzbgN_2Oivz_rGXv6kmTXIITcn4W0qLR0b_qqR_7H9fbE4fJ9XiCWVd22EfN6Jr3jJmmqLBDD2DeCmU6Mowbv5y1Oqv8ocwC4fO9wg"},
-        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dwZ5V6WRsb4g835s9gd8V60PMkEJlmlSYxkQpbfK5Ca1V8ix8nRHrpnQ5RxJOVyOV-lV0mJSededCgVTDAqWwqtgQEZbxShXAHxDdMA2oLg6Rq5SZVTgc7-XOuikT1mFT5sEN0"}
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dwZ5V6WRsb4g835s9gd8V60PMkEJlmlSYxkQpbfK5Ca1V8ix8nRHrpnQ5RxJOVyOV-lV0mJSededCgVTDAqWwqtgQEZbxShXAHxDdMA2oLg6Rq5SZVTgc7-XOuikT1mFT5sEN0"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dzswkndbpmKPmhOGjI5kYcXsgkJB7rNI8R5-LDgZrzv87Vq0DKUp-X155-BuO1FsRvRFGwHaiAbuAUit7P00naNTMthm4_BqVH1tK4ekG28HghOYBSaUCckGJc2Akya-HKkVpEK"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dyABw_zzRCYXL_T5IV-1oKemV2DUqX6Dgr41o4EU6HisHRHFtOz0GFUYnhoCxO56cn1bxK7EOfU1W3n58pJNxNtZNcQwYvN-IBv8RLd-IWCvJESR-uORwLmjSGTY15xEAz9jNA"},
+        { "title": "Episode 12", "url": "https://www.blogger.com/video.g?token=AD6v5dwgSPpeMEdQuZRRsOjc5A8PLZXfUzFU3MHz6ikHCTVuVpkpU5cyfWUW9HmL3ZO-ahsSRWzk_QmzJFYXuutOPpUK9_gMGPqnVB9LcTdHhyp3CBqo_KOZ5aKMrmLtTfDSp7JYOM8"}
       ]
     },
     "date": "2025"
@@ -3857,7 +3870,12 @@
         { "title": "Episode 16", "url": "https://www.blogger.com/video.g?token=AD6v5dyUvZdwl8ICF7Qq2PBe7S9SNAyFIKfYORQ-ta4KTJZMURpwN9RY7-EXN6neDz_FIcr9sACg1nBOWggRVcW7CypZQPUpxUwXY2q5tJuyoSaBvwLF4aYWWGhaZymIKr9wkHUF5Ik" },
         { "title": "Episode 17", "url": "https://www.blogger.com/video.g?token=AD6v5dym-rDN5U1R1ix5WeUCIFC-3U0ikre6veb1iczIQV38RMFboQ3HusVAmSpW6NeIxWV5eAyXZLRm5YukYob2b6CdpFz8ihxxsmRihBIC7we4HVQfw9J_-_xa7pSAjkLt4zR0LbIj" },
         { "title": "Episode 18", "url": "https://www.blogger.com/video.g?token=AD6v5dzabLNfzF5s4uhJ0vUSeKDlwi0CpZC6-SbMkL9UOEtQkrDJU6w3OPe1LrQkrls_hve7vjxyMb4MOs2ifQ3-xldvzyO_2Xb0NGrk2B5-FbepN7G3aCbKV_jtsW76mGkOkegMXsJs" },
-        { "title": "Episode 19", "url": "https://www.blogger.com/video.g?token=AD6v5dy-HKhiT0Eq919yZsP_8MMKaDx3-4MSCZSyaJezLDUS0GU5AyAo8RRz0BjL7hYHh2qRRoczC_5Y1CIRSUzLI4udCjl4UTJMCuDk6rcNUI7LnwNECf8QBvBdcMUs-LPwlusAmgMA"}
+        { "title": "Episode 19", "url": "https://www.blogger.com/video.g?token=AD6v5dy-HKhiT0Eq919yZsP_8MMKaDx3-4MSCZSyaJezLDUS0GU5AyAo8RRz0BjL7hYHh2qRRoczC_5Y1CIRSUzLI4udCjl4UTJMCuDk6rcNUI7LnwNECf8QBvBdcMUs-LPwlusAmgMA"},
+        { "title": "Episode 20", "url": "https://www.blogger.com/video.g?token=AD6v5dymWO2SGBzlW74uGbY9rR41NKLCm6iFT_iEugiixAure0KqvVn27w2NCfdGp-E4VL4iXpqMLHGRgkezvUCqIAwq3TZaOUp46dHQTklzytOSEk36BxdhgKYHMDTOIESEjfkuoEQ"},
+        { "title": "Episode 21", "url": "https://www.blogger.com/video.g?token=AD6v5dyzof4-2jdQBYJAHgN_fH8lqjgxoV50CQlP7crhhGC2esK7b4KHZP5XXOoL6LsKeAJHQp8Ir6t0W5fugLE50fTc1_Ms3YBVxSDHiLQ8fqHX0qCmBvJmcyT3kQqpBbNN816_nAYK"},
+        { "title": "Episode 22", "url": "https://www.blogger.com/video.g?token=AD6v5dyt0irirrBK8Y-yq3SBjyCkMkYklmRnSbUnRzXkVEzboaMgt1okjOg4R3B5X-ZkfiZvfmUxhlT9GVR5TTQuvV7kDHjXbdvIBFM7-cuYNYfIqCOMWm-ZKu_1sJ6RZuXs0q8f8OU"},
+        { "title": "Episode 23", "url": "https://www.blogger.com/video.g?token=AD6v5dyD1aQIQBS90FT-pNAzrsCKeyGSKr5XsFDWea9x6poWPMCD1YvQHAwgZd9oa_U4K25qMZQGnA92Ig884Ycc4jCOd1Htz_oPeUzg_T8vjz9Ms6A_OhOLM4UzPDKg8ZQvuiuEw0h6"},
+        { "title": "Episode 24 End", "url": "https://www.blogger.com/video.g?token=AD6v5dw6A34-kVSYs4JRoJ3b-01LQdygMPeYlGVi2CT2cYvrLLBWv9rj1Heqj5Iqhp4lMdwQw35iu_i7919JinEss1Ne_cXLTnyr2wdmyiSbRi43w7EZlQW9N84-MwUEP300Tzw5dr6r"}
       ]
     },
     "date": "2025"
@@ -3878,7 +3896,11 @@
         { "title": "Episode 5", "url": "https://www.blogger.com/video.g?token=AD6v5dxd5y8uJJe6gKOjHTKHW750K4DehRpfZ3lKtFoJ7NMxFwCZ6Y7lrT9CGpvlO7ZcXvTX-_PmW9UQuaZvok9DeJKNAnHd4YmdDJffJ8fBiCHVjlEEeX9XSwLkEjl65JVnc7SQp3Y6" },
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dzHXyegTQV2eYrSdyYAOiJKOUXFUJqN-LVFAU8B1QvFAbyYyoTdLXVwSI_utGchVQLw4msBHJ5hDQoOqmK1x0LM0x-8r2xxlo609QXst1yrPMTCIhbvvWzVGhjK8QqD4oDqOF_B" },
         { "title": "Episode 7", "url": "https://www.blogger.com/video.g?token=AD6v5dxnm4Hdqdxsd6Ld90mmz-0kHtGfNMPyGer7xIevoHPQ2C5RI_Sc4qN9vV1xsjSUmO2TwauVFXEwLgijL0_uOD0bonYbwAsAwSmrUtmTPTY0asPYOjrdqUAwxw8eYXOUqyBOX1s" },
-        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dzrBkqieb5WIcQ4iDydTIYjQpQqM9k5eEGfAYUd9oaWw4w8aHix5K3vxbB0FNveASuac-wbT58j1X1-unknjomf3KO9cRgQk9oxdXMynglS3nJJQCJT9jNimitG8LqCXtbNcGU"}
+        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dzrBkqieb5WIcQ4iDydTIYjQpQqM9k5eEGfAYUd9oaWw4w8aHix5K3vxbB0FNveASuac-wbT58j1X1-unknjomf3KO9cRgQk9oxdXMynglS3nJJQCJT9jNimitG8LqCXtbNcGU"},
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dyvl8VBLNtBRGhPIkpkhmoMaiMu_Tu7BNqhSo4P_Gu7gAXeNuftErW1TgQXCGH1AHUPw4WIgi2i96aZr5ye72l7oIn_pxurRGxggpjCAsxAwbJwsi3m_n0AExxC4bIFDrCm_LY"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dwEEO_qZXYq4Q_RYxu8A1owO8i8JeaLVWAER8nlgp6wHu9J0EZWxBrHGZlYmWIi6G9kpyFgax_1GtSSEeTck3Iw-3z8SVo2Rr_K6Fd7H4nvhS6vaF-JqI1R3DOzYz3KGBZrtMyu"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dypxXYU2tXYrqEUN7wQLVyWgsyuFGiGkiMoC0rgzkmVvtai1-NImfyhaBX-lqGXY4A2uphG6GzI42RQQdytxFhxaHszD2A6JWCkBn0_s-6l1UsJg3rG9OSWNtX6C3FNvBiaaSc"},
+        { "title": "Episode 12 End", "url": "https://www.blogger.com/video.g?token=AD6v5dwyUroV57SuNTFwdg5GoZAd5d94bCfVvXZLeJOSG4-dTdEiq_DtWggB-RNe84_1rtxjjBVH1tlU3T-Jk-f5w0QX6LEWS-WM8_3A9GieKONNZgf4Cgbgl2nvUzQwS81O3y6mK78"}
       ]
     },
     "date": "2025"
@@ -5026,7 +5048,12 @@
         { "title": "Episode 1127", "url": "https://www.blogger.com/video.g?token=AD6v5dxxpq_gPjoU8W2pI9TMfDHYPZrCeLbQfRABPSpkFGrpR0UxCOBoy82s3KpGDdeGQSuttRMqYrjp_4V0fBzXLQJ3k5x6BK1MYipAt05ToKBgRLQ8hJLrdjqnaVCYMRrX7cFHOHA" },
         { "title": "Episode 1128", "url": "https://www.blogger.com/video.g?token=AD6v5dx0vpSriViz6a8e7vCACzfK4PU-PYGj719PeXdrwVvUxtOzUu8BpRpuNrldON-3wop-auUJKX59iccqBssFHVX8c6lE4kAzQ9M22dYBA7r440UfIgPk8HLWph0jcc72-LXO3PLw" },
         { "title": "Episode 1129", "url": "https://www.blogger.com/video.g?token=AD6v5dxdGOKCvfDz1WntjVqm3n23ENBGn4cWkyD2vUgqgR8xXVp_aaJ7zghL5ysYC2vcJnB8BYD6lMiekKPk0dtz8n1m_PT4IMT7wLEunRKv_XwSO8jj4CNgbP9MOSciULTQZ8_sxQ"},
-        { "title": "Episode 1130", "url": "https://www.blogger.com/video.g?token=AD6v5dyvdP06x3zlRQzOICr9I5OwGAwARwux5CGBBN6Tz3ERbbhQWNPPQNTYyAeS7UtOqEQRhoAaCB9wS3sq3cU2k7U2mfzPkm62cLAAwRivIniDghDZ1_F__kiDros4XCq36vCyiyI"}
+        { "title": "Episode 1130", "url": "https://www.blogger.com/video.g?token=AD6v5dyvdP06x3zlRQzOICr9I5OwGAwARwux5CGBBN6Tz3ERbbhQWNPPQNTYyAeS7UtOqEQRhoAaCB9wS3sq3cU2k7U2mfzPkm62cLAAwRivIniDghDZ1_F__kiDros4XCq36vCyiyI"},
+        { "title": "Episode 1131", "url": "https://www.blogger.com/video.g?token=AD6v5dxuyY3bGORybjmzv_X_1LryyL1x3fUOl4v9-F9PWitt-j3gO9hFz6JA7JoFRZAHRfGK_pjaMW8IVjUl7PX4LDykOcPlPL9IcKVAQuXt4__9ZpmgJRZC_NNwrOCOxlDW-vkRBQ"},
+        { "title": "Episode 1132", "url": "https://www.blogger.com/video.g?token=AD6v5dywVk0pKac76u2sRmqPFig8njs8kF8MRBtLZzU1bCINpA4BJPRyEnEXMYbRV-Y73SOSV1n5BlsscC1RajzA979VgXKR-ANf_-4o27LKII5u_peeSEC_IVGhjT_vqdbwrghqw9Gs"},
+        { "title": "Episode 1133", "url": "https://www.blogger.com/video.g?token=AD6v5dznR8xHG-LVriq8iKFMtHp250fsdzC07HYxtyr-RP5FVdxANIf2ITbHIQjaGetrHnVq4r4jL8w7YhH7_KgS9b6wgoAzqpBV-UdFSc-1RPxT7gRHmM1kaYiaH_RD_i5Cg5iPaWGf"},
+        { "title": "Episode 1134", "url": "https://www.blogger.com/video.g?token=AD6v5dzKn_HY9Q4lXN1wo1jTRS5XkCTYWnafvaE7I77_T3g8XBRAJiwf0gUvBQppi9RoTUK_4GEuYp0bjzE6nirKRHdfV450awxFkaGkYSkeMtjI0W252gp2fifjc7SI34rn-Q_XIq0"},
+        { "title": "Episode 1135", "url": "https://www.blogger.com/video.g?token=AD6v5dzHcoL8tFGm9y-6K6euBgk3fTpsMsWRWtdvFZdf7mQ4T7g8m5rVyrJCYZqWIqov6Gkz-jfsditg7ZibCiGMPWBTY0yofHE_ckkqYHASw4TpZyjXIHY_Ip2n9tcAM63mJIwezXw"}
       ]
     },
     "date": "1999"
@@ -5247,7 +5274,11 @@
         { "title": "Episode 5", "url": "https://www.blogger.com/video.g?token=AD6v5dzOPW-NQM_onK-WVthO_Wv6XmhA12uUKxxawD3caeZhQBki9Wnxqpfol42kU5da0ldbb8ujAlKNgfmfknJsBxfBjYhAVH_9s4cfo-jyIAUfNlOwIEsxfBHtEfQijEjs_gh79Ns" },
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dy6lAYcjiyZULoYAXoXbyw4xVS5JWnWWqpXIDetxUQ8XQBCW54x4ZueHoeIUNvoM28qpdwYkMjeXjpdjJxxZeraIHiFUay7gU5fItKTvxzMwRlJ536qaLFzd3VPNQU-EQPflLGL" },
         { "title": "Episode 7", "url": "https://www.blogger.com/video.g?token=AD6v5dxYrZKZ5QcrQSCVzQ9kkOzMlWZPrpCwIk3lDi9X_DIRHanx8OCjZ2AYhgrPhbayZC1cFNMoNId91Y1T4wriqUIRSUUNLpOSGmq56RhblOGSU9wtSvLiEJTYdmbFxk9tqmA6qLT6" },
-        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dwe6QGF7L7wc1mMVH3hCKBGQuF5KCQElK4bHGeKDyjQUU1mBmJbqL7b9K50EGSZE3zeLdRP7QWBz2mR-GzKS2tU5e3C6eu7_8uXa6WCLT8lsXoJNT-llLgoFTOKy-1qh4MWRFo"}
+        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dwe6QGF7L7wc1mMVH3hCKBGQuF5KCQElK4bHGeKDyjQUU1mBmJbqL7b9K50EGSZE3zeLdRP7QWBz2mR-GzKS2tU5e3C6eu7_8uXa6WCLT8lsXoJNT-llLgoFTOKy-1qh4MWRFo"},
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dzwWQbxw_t-sUlW-0-5onX1x9gqa2VcVyM1h3gv1rzcYvu8F38vxkQ72NIQM32XMNyVRrT3uOdVIBsSNmLpRJ32l32vLHO41ylyTVVxWjwYsW-bEyliBmjjTz3YNiPYmePFFS0"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dxlpq6pcC9U_6RR5oe1yBDBE1iQPOO_IQtm76R6iDfPHf0FMJXPphjxKyL5FC0V06eJlYMd8e9Y14TDpd1hwQSsw0PDeDIHEJeGPKwq82sgEOuE-AwP25UcI493JtyeXtZxmfTz"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dwdd4dHs70GaOjTtyes3iDs9V06uQ9-uCLQ6zZLXRrQLSpUMSiYEwp6h02KlexIg6YsVXPUGdcGDFjglqrrTgRBwRnwUXzq-xg8au_XcolLIdVvY1svhPKsa_6CzcKgg5q2izee"},
+        { "title": "Episode 12 End", "url": "https://www.blogger.com/video.g?token=AD6v5dxSYVuIlUJtox1hISCdJT6jlc0bM9iSge1IhtV0tJTz0JmMYpXg_r_pB7ZyT1Q7O196s3vXeejewpLpBxedA32yJglyw3nmiRC98iKKLhezd9Zn_Dnn4yhxCl2IcaqL72ykEd0"}
       ]
     },
     "date": "2025"
@@ -5342,7 +5373,12 @@
         { "title": "Episode 5", "url": "https://www.blogger.com/video.g?token=AD6v5dxkwbC8XwKt0hcgnXpXSak4c1zxwqxMT5PW-kHfFtr_IIsO1wA4mA83UEfC-0X1qWxrGvkBFB_rOyS-se_0MJifECyUrYlOmJaqtE-UTAp-h7PtGskEBPsbzpMqfo6tvWk-roqo" },
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dx6VCFlzsSulwVA11awa5j1vIvXHSvfe0ujOMLl4BPonBwdnhm7tMxFDBTCDJt6dCQhFT_m9Hj2dHidngSNF9ALC_q8ZXUSgNVy9O_zGDYJMPC4BIDFXbtTeB2lb08jPMM6JHMA" },
         { "title": "Episode 7", "url": "https://www.blogger.com/video.g?token=AD6v5dwImngtWhreIzfF3JXfSlRHxGCkGfJxWFdsdEMOzoasvGPC6sOYRSQWkty-dVYAupYSQxTCSbh3Ev0KcHjK9sqJg9wDRdPm8PkOnXAjKjEydgok2DY2PvCDk80a7JpYWfy9AA" },
-        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dzwKQHaLp8UlC_Upc2xcYwrjQI_8gb7GL2Orc3rAf0I66ZLCXa7ZFgNHuRLNWtmG_b6GNCs8oC8DLAFUkIxNKKr4H49xBHyOfvIp1pXgPnKOBKYlZViGgGrJX5VAAbMArZi"}
+        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dzwKQHaLp8UlC_Upc2xcYwrjQI_8gb7GL2Orc3rAf0I66ZLCXa7ZFgNHuRLNWtmG_b6GNCs8oC8DLAFUkIxNKKr4H49xBHyOfvIp1pXgPnKOBKYlZViGgGrJX5VAAbMArZi"},
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dwqMpap5zp6n5aKmBEWaPTDWgQXjr2A58hOILjnVwH6xeKLzo0G_O3eTEYYjOehR3bhCt7ZRaSDKARLkxQIGHJJEo8Qd5GB5L21co4uOgzSVD2mlt4fuy0a7WF6za3x9ketlcCx"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dyu08w6QIUvQ-eAQJKTPAkF9Q09THtH_F0O1jkyuv3S_SS72fWa-qxS593yUX-kfiEz3P6CxK61_xihY3528lMLjS9zSHbStFEEJMy5XPNLjHlm1PMl5XF7YqD6QXhMK36YbLYz"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dwY2oVXNQW2X_p8jr-SJhzQTNr9zUJXbIKgoIllVqyZXAbJkxBJYhPuN2E7QXGkcgJBxESU4SkM6rvVueTDJnxvGLsFGh5_5NLiepreJqIN6otJ3ieP0LiWuEu7DzGlxU1J5xbZ"},
+        { "title": "Episode 12", "url": "https://www.blogger.com/video.g?token=AD6v5dw98Kv3zYPWrJZw_JI23Z-lwcJybuTR7puqbSjs-9MnSEi8CT7I40K066iNzi9X66CgSayG8Pz9wleKslvKOPzmyG2TB3pbwJT4D9u2OqIR-TVvMSfb0oxfxRbUh_aNtCinRQ"},
+        { "title": "Episode 13 End", "url": "https://www.blogger.com/video.g?token=AD6v5dyvJ8v1HRSyodPWdNPAA2S7nd9Wp_ou_7QKAuOn7TQeNLHZBEgIxlwDAPnuSmX4F5caL9qjSION0FHMgbtyKQ6RN45GuNE64mbTupE_cR08ouGyAC2wW5p0POeQeGHJN46VDUc"}
       ]
     },
     "date": "2025"
@@ -5363,7 +5399,11 @@
         { "title": "Episode 5", "url": "https://www.blogger.com/video.g?token=AD6v5dxf8PaytxmS1dSEbCBS_6VQuQYfKgGGdIcTmCSzaS_d4FpRmM_i2K0eoekPE-MkZoQVDJg7Ll2mXZD2TWW5UP-gjKJtRYUVYSnjF8xu66VOUkpVq2ccXR-lUPTaaub_YPDI2iw" },
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dxVvxkNdWrogi4BSdtjhPacOeNx5lm6CyJhdtiiFw5I7gdWEaJFuRYwb9hu6ELSCn_u6WBi-2jbb-JvFm0OpTMVgVIp52na52j6aQY3D5F1Jj-BM3cRMpLpBGWtVJwj7-cidP8" },
         { "title": "Episode 7", "url": "https://www.blogger.com/video.g?token=AD6v5dwedLuzVKh0XRCxn1fHl9ixvjVyRIWBxmFdcV80pi3JyQTvrSOfPW_AuVoDm3J3Sdbifa6Lgh2DR_JPB0dzLNBVZhb79YKwOj9V0OOGhND-KzzxpV4DlORou9P_fbCL0WozS24"},
-        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dxdxZsh_ojQAXqc1Q1JRmoov4yfsk5ZDVCW_0rBjBYe_T1DzSU6V9TwdUEMPhAqqHaK23ZEXKe4eZSJfkjS8QGqMH8YoglO9vXPFgkkE-dRx9jCOFQQoJ1x44RtfjUYbifufakP"}
+        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dxdxZsh_ojQAXqc1Q1JRmoov4yfsk5ZDVCW_0rBjBYe_T1DzSU6V9TwdUEMPhAqqHaK23ZEXKe4eZSJfkjS8QGqMH8YoglO9vXPFgkkE-dRx9jCOFQQoJ1x44RtfjUYbifufakP"},
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dx3u-_s-9Zms3Df1XeIp5DnQS1UgGcq5bjTLrjQ0lh4MSLTP7ONbv4rGIqcUiExcGi4zUHH9VC1Qv-OQSdCmE_cgtY5Rr9GeoGtX-sAt27PW1gsUH_8gr_k_RIpBnHc37I2xiA"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dxpiTgQpARZ05o8-bmxuVEjuKTyXt-R3nHL9IgdKFazlIYOfOJ4GDqwVdzVx0Oh9VQ-FZ5SHu4GpxuNbtyExA84oz-lV6r2hJzaxPW4SY-al_Ltx_Eh7VsHmfEtkUd6W6B_tEeD"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dzSKPFjdVEGC8akWOc3Mn9MH7m_sHw6qUT06BOT370mTRLiOsE-vLuDHoFq7FPriEUibA3qFrPtXoScT6zzUeBxqLVe5qCP9PayMRC7O1vjKd9bGxA5UKlM8Yf_fTjFPkT3YfEB"},
+        { "title": "Episode 12 End", "url": "https://www.blogger.com/video.g?token=AD6v5dx0lkF-LdhfZBhonfAOYCF2p3laRsmIH5Kc4PS-II2H808hMi4Y8MZakHgcuGRzOlzOjomLewKIz9BZf7crj7cXbJbzAV0NcjacGZtuT-H0K5-zAByneGP7MtfJuP1-aFrg2Pnp"}
       ]
     },
     "date": "2025"
@@ -5410,7 +5450,12 @@
         { "title": "Episode 5", "url": "https://www.blogger.com/video.g?token=AD6v5dx9DKlY135V1UpYth7HugoTPBMqBBd_8Yqk1hoC0uZvTfLMqGY0ouZsOQcArVXxcLg5c420R7iV5kQwMX7Ms3Y0aYxTGcjRBMidheK4L3xC6xONs873oQqnpSOQQr6lNYgkbK4" },
         { "title": "Episode 6", "url": "https://www.blogger.com/video.g?token=AD6v5dybOFvMrxR2HCu-eqS1bAg-EDjkAEaSBYew-obF7-SPxKPOIQ4OU9ARGc5Z66rDrHSPwxPa4v-fxxkERCgKbCvO037dAg-E0jV2CMRNjUldgqXZ5Nu0a6ODSSKuJmV0vSgLrtbH" },
         { "title": "Episode 7", "url": "https://draft.blogger.com/video.g?token=AD6v5dxUkHamfR8peAOoWRQo9Un2UMlLl-qN5h27l6lh6qrf4ydP0HyyOBC3a93EPTvRqBL6RNWIrB3gGZDXSmDiinZaW0V43iJp9varQhZtV1B-6BhlwJCR1WzoaNALIckPulFEbG_8"},
-        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dzbnKZZDJWyDFTXCs71uvFKiWsHecf-3YmvOjfqBqtLThoPlXYgUmucD-yYcZCBslwzKn68FLegy3JdMO9Lpdsq6nza9mG5vM_Xv_x7ximN6gDtIa-aONVmjUZQl6eewdrbhd1s"}
+        { "title": "Episode 8", "url": "https://www.blogger.com/video.g?token=AD6v5dzbnKZZDJWyDFTXCs71uvFKiWsHecf-3YmvOjfqBqtLThoPlXYgUmucD-yYcZCBslwzKn68FLegy3JdMO9Lpdsq6nza9mG5vM_Xv_x7ximN6gDtIa-aONVmjUZQl6eewdrbhd1s"},
+        { "title": "Episode 9", "url": "https://www.blogger.com/video.g?token=AD6v5dwrY27mnhlfaBTqRQjZMnaTlyus6Nwmdy5jcZoBT05gg1yrmR6YgVjk4HzwIwP_2G-L1x6jOXwZZEduv3nzoLaB982AdlN09Qbe77eDgxY98GOdfQxlXbroh7JaesdKrRWow9I5"},
+        { "title": "Episode 10", "url": "https://www.blogger.com/video.g?token=AD6v5dx-tB6djGDU9pP9BopWoGfUqxQy8Y8B0_LN3VlViXLuht1aXoU8Fyg11u6KDNISv-kC1xLLneCYBi8sVj1-1Hr3pSPuD4uHxy_Ty6EtYesetjHxu62Zmn1ng6mlIcVsH2fXMA"},
+        { "title": "Episode 11", "url": "https://www.blogger.com/video.g?token=AD6v5dyoEyzZ-Cf8LfbTxmLfn_S3PvuneofaP_l2TrON92jBF-FKNJ4CwabQZw7s1Y3jpA87zB15cU0I0J4fFOwMrciL4Lu5F_S7odQEi4oe-iDduEoYgaM1TTxzGgH6xbudHVQ_fOeU"},
+        { "title": "Episode 12", "url": "https://www.blogger.com/video.g?token=AD6v5dxqalfnm8GjgOiGeN2hGp5CSVXlRr8xuy4_LFiVY49gWL8ortZc7UQgA9PWQPY7VfAl6IOO6JqOawToypHBAzg_tDUts31PfhMe9uIUDBD5pp4LAuijYNkN0lwjXJ9PB62oDcHf"},
+        { "title": "Episode 13 End", "url": "https://www.blogger.com/video.g?token=AD6v5dxVmkWw33HykzPmVYgGKUHOcDWbhoCfTAO3SdQB1ffZ52LCLc_dYBk_BE--1DF_R4zY05TRPjvE9m56uE78oTqOgpQxeqGUXk1PtijdHSCIPSEqb25J-21R1eaYVsWEphcuBIk"}
       ]
     },
     "date": "2025"
