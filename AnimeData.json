@@ -333,7 +333,7 @@
   {
     "id": "6",
     "title": "Dr.Stone",
-    "status":"Complete",
+    "status":"Ongoing",
     "description": "Dr. Stone adalah sebuah seri manga Jepang yang ditulis oleh Riichiro Inagaki dan diilustrasikan oleh Boichi. Menceritakan Suatu hari yang ditakdirkan, seluruh umat manusia membatu oleh kilatan cahaya yang menyilaukan. Setelah beberapa milenium, anak sekolah menengah Taiju terbangun dan menemukan dirinya tersesat di dunia patung. Namun, dia tidak sendirian! Temannya yang mencintai sains, Senku, telah berdiri dan berjalan selama beberapa bulan dan dia punya rencana besar dalam pikirannya untuk memulai peradaban dengan kekuatan sains!",
     "image": "https://i1.wp.com/oploverz.my/wp-content/uploads/manga-images/thumbnail/dr-stone.jpg?resize=247,350",
     "season": ["Season 1","Season 2","Season 3","Season 4 = Science Future","Special Ryusui"],
@@ -417,6 +417,9 @@
       ],
       "Special Ryusui": [
         { "title": "Special Watching versi full", "url": "https://ok.ru/videoembed/4061734832718" }
+      ],
+      "Season 4 = Science Future Part 2":[
+        {"title": "Episode 1","url": "https://www.blogger.com/video.g?token=AD6v5dzViaEJVW6xPN_N6NWfVr64HksWQtbIZhmFRcwHyOX6EznXH57-1aR5QuaJZNYlJtkVvIfurn7GD9lyZg-eREbbE033DiciQITLyG0Zn1jOx9wR4v_6aCauo6zOigX2CJDRzQ4"}
       ]
     },
     "date": "2019"
